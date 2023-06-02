@@ -1,4 +1,4 @@
-.main-nav{
+ .main-nav{
   min-height: 50px;
   width: 100%;
   margin: 0% auto;
@@ -77,3 +77,37 @@
 .nav-links:hover{
   background-color: #d3e4eb;
 }
+
+.nav-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: inherit;
+}
+
+.menu {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 165px;
+}
+@media (max-width: 767px) {
+  .nav-logo{
+    padding: 5px 0px;
+  }
+  .navbar{
+    min-width: 100%;
+  }
+  .nav-links{
+    padding: 7px 13px;
+    margin-right: 15px;
+  }
+} 
+
